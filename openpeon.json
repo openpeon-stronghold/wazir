@@ -9,34 +9,46 @@
   "categories": {
     "session.start": {
       "sounds": [
-        { "file": "sounds/start_1.mp3", "label": "Greeting 1" },
-        { "file": "sounds/start_2.mp3", "label": "Greeting 2" }
+        { "file": "sounds/wa_add_player_01.wav", "label": "Yes!" }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        { "file": "sounds/wa_willattack_01.wav", "label": "You better be right" },
+        { "file": "sounds/wa_sent_01.wav", "label": "Do not waste them" },
+        { "file": "sounds/wa_siege_01.wav", "label": "Desert will run red" }
       ]
     },
     "task.complete": {
       "sounds": [
-        { "file": "sounds/complete_1.mp3", "label": "Done 1" },
-        { "file": "sounds/complete_2.mp3", "label": "Done 2" }
-      ]
-    },
-    "input.required": {
-      "sounds": [
-        { "file": "sounds/permission_1.mp3", "label": "Needs attention" }
+        { "file": "sounds/wa_vict_01.wav", "label": "A mighty victory" },
+        { "file": "sounds/wa_boast_01.wav", "label": "Another falls before me" },
+        { "file": "sounds/wa_vict_04.wav", "label": "Fall like flies" }
       ]
     },
     "task.error": {
       "sounds": [
-        { "file": "sounds/error_1.mp3", "label": "Error" }
+        { "file": "sounds/wa_anger_01.wav", "label": "Warriors have failed me" },
+        { "file": "sounds/wa_anger_02.wav", "label": "Wretched tin man" }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        { "file": "sounds/wa_help_01.wav", "label": "Swiftly to my rescue" },
+        { "file": "sounds/wa_nervous_02.wav", "label": "We are weak" },
+        { "file": "sounds/wa_req_01.wav", "label": "Send me these goods" }
       ]
     },
     "resource.limit": {
       "sounds": [
-        { "file": "sounds/limit_1.mp3", "label": "Limit hit" }
+        { "file": "sounds/wa_notsent_01.wav", "label": "No goods to spare" },
+        { "file": "sounds/wa_nohelp_01.wav", "label": "Cannot help" }
       ]
     },
     "user.spam": {
       "sounds": [
-        { "file": "sounds/spam_1.mp3", "label": "Too many prompts" }
+        { "file": "sounds/wa_noattack_01.wav", "label": "CERTAIN DEATH, AND YOU KNOW IT" },
+        { "file": "sounds/wa_kick_player_01.wav", "label": "Ah!" }
       ]
     }
   }
